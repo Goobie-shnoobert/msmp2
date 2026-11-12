@@ -1,0 +1,12 @@
+name: NineLives
+version: 1.0.0
+main: com.example.ninelives.NineLives
+api-version: '1.21'
+description: 9 lives, buffed milk and fish, and a craftable Lucky Collar revival.
+commands:
+  lives:
+    description: Check how many lives a player has left
+    usage: /lives [player]
+  revive:
+    description: Use a Lucky Collar to bring back a player who ran out of lives
+    usage: /revive <player>
